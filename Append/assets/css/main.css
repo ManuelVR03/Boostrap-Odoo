@@ -336,6 +336,13 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+
+  .navmenu .dropdown #dropdownS:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -121%;
+    visibility: visible;
+  }
 }
 
 /* Navmenu - Mobile */
