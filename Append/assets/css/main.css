@@ -86,7 +86,27 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+.fondoRed {
+  background-image: url(../img/highlights/red_highlight_bold_05.svg);
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+  font-family: "Caveat";
+  font-weight: 700px;
+  min-height: 200px;
+}
 
+.fondoGreen {
+background-image: url("../img/highlights/green_highlight_03.svg");
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: contain;
+white-space: nowrap;
+font-family: "Caveat";
+font-weight: 700px;
+min-height: 200px;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -458,7 +478,7 @@ h6 {
     margin-right: 0;
     z-index: 9999;
   }
-
+ 
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
@@ -882,8 +902,22 @@ section,
   opacity: 0.5;
   filter: grayscale(100);
 }
-
+.clients .client-logoEsp img {
+  padding:20px 40px;
+  max-width: 120%;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+#logoLin{
+  padding-top: 28px;
+}
 .clients .client-logo img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .client-logoEsp img:hover {
   filter: none;
   opacity: 1;
 }
