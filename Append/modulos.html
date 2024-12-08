@@ -67,22 +67,22 @@
                   <li><a href="#dep">Departamentos</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="modulos.html"><span>Compra</span> <i
+              <li class="dropdown"><a href="#compra"><span>Compra</span> <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li class="dropdown" id="dropdownS"><a href="modulos.html"><span>Pedidos</span> <i
+                  <li class="dropdown" id="dropdownS"><a href="#pedido"><span>Pedidos</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                      <li><a href="#">Solicitudes de presupuesto</a></li>
-                      <li><a href="#">Pedidos de compra</a></li>
-                      <li><a href="#">Proveedores</a></li>
+                      <li><a href="#presupuesto">Solicitudes de presupuesto</a></li>
+                      <li><a href="#pedido">Pedidos de compra</a></li>
+                      <li><a href="#compra">Proveedores</a></li>
                     </ul>
                   </li>
-                  <li><a href="modulos.html">Productos</a></li>
+                  <li><a href="#productos">Productos</a></li>
                 </ul>
               </li>
               <li><a href="modulos.html">Ventas</a></li>
-              <li><a href="modulos.html">Ajustes</a></li>
+              <li><a href="#ajustes">Ajustes</a></li>
             </ul>
           </li>
           <li><a href="bootstrap.html">Bootstrap</a></li>
@@ -111,6 +111,58 @@
         </div>
       </div>
 
+    </section>
+
+    <section class="bg-200 o_colored_level pt-4 pt-md-6 pb-7" data-oe-shape-data="{'shape':'illustration/doodle/03'}">
+      <div class="o_we_shape o_illustration_doodle_03" style="left: -0.2px; right: -0.2px;"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-9 col-xxl-8 text-center">
+            <div class="row mt-5 mt-md-6">
+              <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0 offset-lg-1" href="#">
+                <figure>
+                  <img width="80px" class="img-thumbnail rounded-1 mb-3"
+                    src="//download.odoocdn.com/icons/stock/static/description/icon.svg" alt="Odoo Inventario icon"
+                    loading="lazy" style="">
+                  <figcaption class="text-truncate small text-o-color-5">Inventario</figcaption>
+                </figure>
+              </a>
+              <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0" href="#">
+                <figure>
+                  <img width="80px" class="img-thumbnail rounded-1 mb-3"
+                    src="//download.odoocdn.com/icons/purchase/static/description/icon.svg" alt="Odoo Compra icon"
+                    loading="lazy" style="">
+                  <figcaption class="text-truncate small text-o-color-5">Compra</figcaption>
+                </figure>
+              </a>
+              <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0" href="#">
+                <figure>
+                  <img width="80px" class="img-thumbnail rounded-1 mb-3"
+                    src="//download.odoocdn.com/icons/hr/static/description/icon.svg" alt="Odoo Inventario icon"
+                    loading="lazy" style="">
+                  <figcaption class="text-truncate small text-o-color-5">Empleados</figcaption>
+                </figure>
+              </a>
+              <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0" href="#">
+                <figure>
+                  <img width="80px" class="img-thumbnail rounded-1 mb-3"
+                    src="//download.odoocdn.com/icons/sale/static/description/icon.svg" alt="Odoo Inventario icon"
+                    loading="lazy" style="">
+                  <figcaption class="text-truncate small text-o-color-5">Venta</figcaption>
+                </figure>
+              </a>
+              <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0" href="#">
+                <figure>
+                  <img width="80px" class="img-thumbnail rounded-1 mb-3"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAekSURBVHgB7ZzbbxR1FMfPmZ1uW0Qtmhgfp4qXGB/A64uRxQgID1DQNx/Y6gP4QouPBmGL8mqLL+CL3foHQA1GuSgUE2OMhkBCohJNNyQoEDU14bLdyxzP2ba4tDDtzM7lDPw+yXSX3emQ/r5zfp/f/OYCYDAYDAaDwWAwGAzxgpBS9vV8kEMLNgNZOQBy3t56Uj4+zX9SCeswYq87OgopJHWBSBAW4iABLGv+fDqQG/AfNg6Wtd1edeRzSBE2pIR9PQUH0R7mtzlawPq8Tje47mjt6Kpipp4ZwLWHS5AC1FfIcE+hq2LZfURQ8FpvdoXMwcIhu2bt1R6MBYrZ//qevjLa4/OFsSBc6q9b9eO1I6s3g2JUVsjtPOHFvBXShGa/qHKIX08ERbNfVFTIQj3hhZ8KmYMivyTukFA9ERRFfkmsQoJ4wouWKqSJpP0Su0Pi8kRQkvZLbBUShie8CKtC5hCzX2JxiApPBCVmv0RaIWF7wovIKqSJOPwSiUO0eyIocfgl1AqJ2hNexFEhc4jAL6E5JNWeCEoEfmm5QuL0hBeJVEgTYfmlpQr5ZNOHg4h4IukwNCB+IfZL9djqj6AFAgeyf9OeYe6e+sFwMy5tZ+l/CgEJFAhXxi4gyoPhlvCOmi8fXhNoZ/UdiAxpXVMZ84EZdHfSwVwX+CRAhVg5Fpjv/+guZEllke17x/UdCKKl+hSoJnj0+TL4xHcgZkTlA/LfVv4rxHRXfojDIcnCFToBSEUit7dOuLydaku2HtyBbWuOoX2tuoQQlpMLveTSCK83ASkjNRfKcRQlIGuoA6ojvQcLt2xo3Dgmn5+eXoqVr1bJx3ne7XZxZTuQAtQHIhVhEQxsGX1/CHySXXtMXoqVL18t8nb60QY+fkLVXa7yLkuqorZ8y+gO32E0k133NdTRHqrV7Wc4mBIoRm0g3MWcJqqvfGe0UIIQ6Fx7WF7G627mFZjq0lSiNBAquVTbGFYYM8yEUnMzm7RWirpAxBlhVsZsbqoUhaMwdYGIwKMKYwYJJUO1carBblCGskCo1KrAF4qIHjI4pK3rUhUIUqYAMeISH14SfQyKUBMIj6omtoy+NwIx0t5ek6WoySVqAiGk2G/SxJVjUCnbE24d1NwnoqdC3MwYJAByefCS7BUSTSjqsugMJIHbWNQcKKqZy2qDagkSoG1RVV5KtUobaEBNhfSOFhIRq3iEwzBS1wIpu/hYTSByXTAkwVgO7GxVzZS8mkCq0OZAAlSvtcnigBLUBFKHejIXT1iNRc2FG3qGvRau4G4LYsfiEbdFK0AJegIh7IGYr2ihEzn5CYiwAZSgZ+qEw6iAnYcYqZb52MPFvKbz7KqGvTyf1VfOPwFxQG8uBbhwTbqrnaAINYE8bF+EN+476PDb/ut5B6KECjmYbM+g+/1ffe6hPxwavwJaSDwQCeK1xUd4OQqLrSsik138cXdUoUgY5dJFIBe7+YTIIFytgfvD3+AevwTE75MmsUCk8V9a9F0jiIftS81fdSFmj0MEocyEIdtGdL+56bvLZXAPXWiEk2QwsQeSxQos6zgD6+/9ApZmf7/dao6FbQcgxFCaw7CwLtt2brked18SDJ39N5FgYg3kqfaf2RMHGoFIMF7wYHTZTKW0KnoR+OT5P+UG10e4Mo7Ltuf7HffsxFQ3FrNfYpl+F0+80PkTPJD5B3zicCinOJ3d5d7Hh3jvoezwuQX9IhX4R8mBMk/sT1p8pIHQx2GInxY+xJ32C3C1WE/fD9i9GKIm0kAkgBc6f5ztCL90sejlztZtvAxwMCOIJAeSJFO1PBMFWCw1ViTu3nhOjKdhACrnCdugJo3fw4Hu5HUdCMp0MHh5ElCCuSe6ZotkyzOekC4qRBw+uSeP6xjkRc6/y2lXOctY4pCmzmdQRQJwoHFTEa6oYHZDmPezSPcli1RKVMGEukUJQkKQZT5HtEAXEeZJbjPgnmgSsje+mMSp9yKLKM9zNILhUZk1HUyY+A5ELvW81V4nIyapisaxxN2AdGMsfuBwPPzi+0yk70Bw6srx3My/RdgSRIueSC/N4n/xQcCHOv7/Dsn3xRP+K4ToJCLmZg7s7togZiPB8DC5yS887LCK4BPfgZShPvR8xy/bnus4tQQMc7gh/kcXT2Sffehb8EmgpwGV80v7+YzSIBhuB3ckMNBZPDcAPgn8eKbrvY8Po4x0DLORMEY4jF4IQOCpk87hc70ukdw6cCc9xa9V5GB1b9AwhJYfYHY1/2hPBjNyJO2Esb2UQgh0mnfQdzuLv41BC4TWgNfzj+V59CVn37rh7kF6hwmOY6Cj+OteCIFQ9+jr+Scdgnofz+X1wZ1fLQ1xd0BlL8+lhXYpaiSNJsHwBPYuntnYDHdeMOKJMYLqW53FUglCJtLGusP8EponvIilkVLul9A94UVse21K/RKJJ7yIvWFS4pdIPeFFYg2i1C+xeMKLxBtCiV9i9YQXKvbMhP0Suye8UNWHx+yXxDzhhUqpRuyXxD3hherhZ8h+UeMJL9QfD4TkF1We8CI10xkB/aLSE16kbn5pgX5R7QkvUjvh1/AL4Hpuewdw+uJpghIHMeYCfZa2IAwGg8FgMBgMBoMhKf4De32ommx0ch4AAAAASUVORK5CYII="
+                    alt="Odoo Inventario icon" loading="lazy" style="">
+                  <figcaption class="text-truncate small text-o-color-5">Ajustes</figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Faq Section -->
@@ -482,7 +534,8 @@
               <h2>Proveedores</h2>
               <p style="text-align: justify;">
                 Gestiona de manera eficiente tus proveedores con Odoo. Organiza contactos, realiza seguimientos de
-                pedidos y controla el inventario, todo en una sola plataforma, para mejorar las relaciones comerciales y
+                pedidos y controla el inventario, todo en una sola plataforma, para mejorar las relaciones comerciales
+                y
                 optimizar tus procesos de compra.
               </p>
             </div>
@@ -547,7 +600,8 @@
                     </div>
                     <p>
                       <span>Carrefour es una cadena multinacional de distribución de origen francés. Es considerado el
-                        primer grupo europeo, a poca distancia en ingresos netos de la compañía alemana Schwarz Gruppe,
+                        primer grupo europeo, a poca distancia en ingresos netos de la compañía alemana Schwarz
+                        Gruppe,
                         y el tercero del sector a nivel mundial.</span>
                     </p>
                   </div>
@@ -588,7 +642,8 @@
                       </div>
                     </div>
                     <p>
-                      El Corte Inglés es un grupo de distribución mundial con sede en España, compuesto por empresas de
+                      El Corte Inglés es un grupo de distribución mundial con sede en España, compuesto por empresas
+                      de
                       distintos formatos, siendo el principal el de grandes almacenes, seguido por el de la venta en
                       internet.
                     </p>
@@ -649,7 +704,7 @@
         </div>
         <!--/Proveedores-->
 
-        <section id="inventario" class="features section">
+        <section class="features section">
           <div class="row gy-4 align-items-stretch justify-content-between features-item ">
             <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
               <img src="assets/img/modulos/proveedores/proveedor1.png" alt="" style="object-fit: contain;">
@@ -692,79 +747,23 @@
             </div>
           </div><!-- Features Item -->
 
-        </section>
-
-        <!-- Solicitud de presupuesto -->
-        <section id="presupuesto" class="features section">
-
-          <!-- Section Title -->
-          <div style="text-align: start;" class="container section-title" data-aos="fade-up">
-            <h2>Solicitud de presupuesto</h2>
-            <p>Paso a paso para crear solicitudes de presupuesto</p>
-          </div><!-- End Section Title -->
-
-          <div class="container">
-
-            <div class="row gy-4 align-items-stretch justify-content-between features-item">
-              <div class="container row" data-aos="fade-up">
-                <div class="portfolio-details-slider swiper init-swiper col-lg-6"
-                  style="max-width: 600px;height: 400px;">
-                  <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "navigation": {
-                    "nextEl": ".swiper-button-next",
-                    "prevEl": ".swiper-button-prev"
-                  }
-                }
-              </script>
-                  <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide">
-                      <img src="assets/img/modulos/presupuesto/ped1.png" alt=""
-                        style="object-fit: contain; width: 100%; height: 100%;">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
-                        style="object-fit: contain; width: 100%; height: 100%;">
-                    </div>
-                  </div>
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                </div>
-
-                <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
-                  <h3>Crear Solicitud de presupuesto</h3>
-                  <p>Desde el módulo compra entramos en la pestaña pedidos</p>
-                  <ul>
-                    <li><i class="bi bi-arrow-right"></i><span>Seleccionamos solicitudes de presupuesto.</span></li>
-                    <li><i class="bi bi-arrow-right"></i><span>Creamos una nueva solicitud desde el botón
-                        'Nuevo'.</span>
-                    </li>
-                    <li><i class="bi bi-arrow-right"></i><span>Rellenamos la información necesaria.</span></li>
-                    <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Creación de presupuesto.</span></li>
-                    <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Resultado de la creación de
-                        presupuesto.</span></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <!-- Solicitud de presupuesto -->
+          <section id="presupuesto" class="features section">
 
             <!-- Section Title -->
-            <div style="text-align: start; margin-top: 7%;" class="container section-title" data-aos="fade-up">
-              <h2>Pedidos de compra</h2>
-              <p>Paso a paso para crear pedidos de compra</p>
+            <div style="text-align: start;" class="container section-title" data-aos="fade-up">
+              <h2>Solicitud de presupuesto</h2>
+              <p>Paso a paso para crear solicitudes de presupuesto</p>
             </div><!-- End Section Title -->
-            <div class="row gy-4 align-items-stretch justify-content-between features-item mt-3">
-              <div class="container row" data-aos="fade-up">
-                <div class="portfolio-details-slider swiper init-swiper col-lg-6"
-                  style="max-width: 600px;height: 400px;">
-                  <script type="application/json" class="swiper-config">
-                {
+
+            <div class="container">
+
+              <div class="row gy-4 align-items-stretch justify-content-between features-item">
+                <div class="container row" data-aos="fade-up">
+                  <div class="portfolio-details-slider swiper init-swiper col-lg-6"
+                    style="max-width: 600px;height: 400px;">
+                    <script type="application/json" class="swiper-config">
+                  {
                   "loop": true,
                   "speed": 600,
                   "autoplay": {
@@ -774,57 +773,163 @@
                   "navigation": {
                     "nextEl": ".swiper-button-next",
                     "prevEl": ".swiper-button-prev"
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination2",
+                    "type": "bullets",
+                    "clickable": true
                   }
-                }
-              </script>
-                  <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide">
-                      <img src="assets/img/modulos/pedidos_compra/pedComp.png" alt=""
-                        style="object-fit: contain; width: 100%; height: 100%;">
+                  }
+                  </script>
+                    <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/modulos/presupuesto/ped1.png" alt=""
+                          style="object-fit: contain; width: 100%; height: 100%;">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
+                          style="object-fit: contain; width: 100%; height: 100%;">
+                      </div>
                     </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
-                        style="object-fit: contain; width: 100%; height: 100%;">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination2"></div>
+                  </div>
+
+                  <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+                    <h3>Crear Solicitud de presupuesto</h3>
+                    <p>Desde el módulo compra entramos en la pestaña pedidos</p>
+                    <ul>
+                      <li><i class="bi bi-arrow-right"></i><span>Seleccionamos solicitudes de presupuesto.</span></li>
+                      <li><i class="bi bi-arrow-right"></i><span>Creamos una nueva solicitud desde el botón
+                          'Nuevo'.</span>
+                      </li>
+                      <li><i class="bi bi-arrow-right"></i><span>Rellenamos la información necesaria.</span></li>
+                      <br />
+                      <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Creación de presupuesto.</span></li>
+                      <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Resultado de la creación de
+                          presupuesto.</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section Title -->
+              <section id="pedido">
+                <div style="text-align: start; margin-top: 7%;" class="container section-title" data-aos="fade-up">
+                  <h2>Pedidos de compra</h2>
+                  <p>Paso a paso para crear pedidos de compra</p>
+                </div><!-- End Section Title -->
+                <div class="row gy-4 align-items-stretch justify-content-between features-item mt-3">
+                  <div class="container row" data-aos="fade-up">
+                    <div class="portfolio-details-slider swiper init-swiper col-lg-6"
+                      style="max-width: 600px;height: 400px;">
+                      <script type="application/json" class="swiper-config">
+                  {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination3",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                  }
+                  </script>
+                      <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide">
+                          <img src="assets/img/modulos/pedidos_compra/pedComp1.0.png" alt=""
+                            style="object-fit: contain; width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/modulos/pedidos_compra/ped3.1.png" alt=""
+                            style="object-fit: contain; width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/modulos/pedidos_compra/pedComp.png" alt=""
+                            style="object-fit: contain; width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/modulos/pedidos_compra/ped4.png" alt=""
+                            style="object-fit: contain; width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="assets/img/modulos/pedidos_compra/pedComp2.png" alt=""
+                            style="object-fit: contain; width: 100%; height: 100%;">
+                        </div>
+
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-pagination3"></div>
                     </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/books-1.jpg" alt=""
-                        style="object-fit: contain; width: 100%; height: 100%;">
+
+                    <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+                      <h3>Crear y validar pedidos de compra</h3>
+                      <p>Los pedidos de compra se crean automáticamente después de crear un presupuesto.</p>
+                      <br />
+                      <ul>
+                        <li><i class="bi bi-arrow-right"></i><span>Desde la pestaña pedidos entramos en pedidos de
+                            compra.</span></li>
+                        <li><i class="bi bi-arrow-right"></i><span>Abrimos el pedido de compra que queramos validar y
+                            clicamos en recibir productos</span>
+                        </li>
+                        <li><i class="bi bi-arrow-right"></i><span>A continuación validamos la recepción del
+                            pedido</span>
+                        </li>
+                        <li><i class="bi bi-arrow-right"></i><span>Tras esto, clicamos en enviar pedido de compra por
+                            correo
+                            electrónico para generar el pdf.</span></li>
+                        <li><i class="bi bi-arrow-right"></i><span>Para finalizar, se nos abrirá una ventana emergente
+                            que
+                            contiene el pdf (lo podremos descargar), pulsamos enviar.</span></li>
+                      </ul>
+
+                    </div>
+                  </div><!-- Features Item -->
+                  <div class="row">
+                    <div class="col-lg-6" style="margin-top: 70px;">
+                      <ul>
+                        <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Pestaña en la que se visualizan todos
+                            los pedidos de compra.</span></li>
+                        <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Botón de recibir productos dentro de
+                            un
+                            pedido.</span></li>
+                        <li><i class="bi bi-3-circle-fill"></i><span>Tercera foto:Validación de un pedido de
+                            compra.</span></li>
+                        <li><i class="bi bi-4-circle-fill"></i><span>Cuarta foto:Pedido de compra ya validado.</span>
+                        </li>
+                        <li><i class="bi bi-5-circle-fill"></i><span>Quinta foto:Envío de pedido de compra por correo
+                            electrónico.</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <section id="service-details" class="service-details section">
+                        <div class="service-box">
+                          <h4>Resultado PDF generado</h4>
+                          <div class="download-catalog">
+                            <a href="./assets/pdfs/Pedido.compra-P00002.pdf" download><i
+                                class="bi bi-filetype-pdf"></i><span>Pedido de compra-P00002</span></a>
+                          </div>
+                        </div><!-- End Services List -->
+                      </section>
                     </div>
                   </div>
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
                 </div>
-
-                <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
-                  <h3>Crear pedidos de compra</h3>
-                  <p>Los pedidos de compra se crean automáticamente después de crear un presupuesto.</p>
-                  <br />
-                  <ul>
-                    <li><i class="bi bi-arrow-right"></i><span>Entramos en el módulo de inventario.</span></li>
-                    <li><i class="bi bi-arrow-right"></i><span>Vamos a Productos, Productos y le damos a Nuevo.</span>
-                    </li>
-                    <li><i class="bi bi-arrow-right"></i><span>Le damos un nombre, un precio y una categoría.</span>
-                    </li>
-                    <li><i class="bi bi-arrow-right"></i><span>Por último, actualizamos la cantidad con el número de
-                        stock
-                        para la venta.</span></li>
-                    <br />
-                    <li><i class="bi bi-gear"></i><span>También podemos crear servicios como productos seleccionando la
-                        opción
-                        de servicio en tipo de producto.</span>
-                    </li>
-                  </ul>
-                </div>
-              </div><!-- Features Item -->
-            </div>
-          </div>
-        </section><!-- / solicitud presupuesto -->
+              </section>
+          </section><!-- / solicitud presupuesto -->
       </div>
     </section><!-- / MÓDULO COMPRA -->
 
     <!-- Features Section -->
-    <section id="inventario" class="features section">
-
+    <section class="features section" id="ajustes">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Ajustes</h2>
@@ -930,7 +1035,8 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Multiempresa</span></li>
                 <li class="na"><i class="bi bi-x"></i> <span>API externa</span></li>
               </ul>
-              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">EMPIEZA AHORA</a></div>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES/pricing" target="_blank"
+                  class="buy-btn">EMPIEZA AHORA</a></div>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -949,7 +1055,8 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Multiempresa</span></li>
                 <li class="na"><i class="bi bi-x"></i> <span>API externa</span></li>
               </ul>
-              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">CÓMPRALO AHORA</a></div>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES/pricing" target="_blank"
+                  class="buy-btn">CÓMPRALO AHORA</a></div>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -968,7 +1075,8 @@
                 <li><i class="bi bi-check"></i> <span>Multiempresa</span></li>
                 <li><i class="bi bi-check"></i> <span>API externa</span></li>
               </ul>
-              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">CÓMPRALO AHORA</a></div>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES/pricing" target="_blank"
+                  class="buy-btn">CÓMPRALO AHORA</a></div>
             </div>
           </div><!-- End Pricing Item -->
 
