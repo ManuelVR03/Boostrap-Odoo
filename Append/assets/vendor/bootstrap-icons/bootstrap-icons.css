@@ -26,6 +26,10 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bi-1-circle-fill::before{content: "\uF796"}
+.bi-2-circle-fill::before{content: "\uF79C"}
+.bi-3-circle-fill::before{content: "\uF7A2"}
+.bi-4-circle-fill::before{content: "\uF7A8"}
 .bi-123::before { content: "\f67f"; }
 .bi-alarm-fill::before { content: "\f101"; }
 .bi-alarm::before { content: "\f102"; }

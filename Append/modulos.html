@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,22 +51,27 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="#" class="active"><span>Módulos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#" class="active"><span>Módulos</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a href="modulos.html"><span>Inventario</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html#inventario"><span>Inventario</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="modulos.html">Productos</a></li>
+                  <li><a href="modulos.html#productos">Productos</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="modulos.html"><span>Empleados</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html#empleados"><span>Empleados</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Empleados</a></li>
-                  <li><a href="#">Departamentos</a></li>
+                  <li><a href="#emp">Empleados</a></li>
+                  <li><a href="#dep">Departamentos</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="modulos.html"><span>Compras</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html"><span>Compra</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li class="dropdown" id="dropdownS"><a href="modulos.html"><span>Pedidos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <li class="dropdown" id="dropdownS"><a href="modulos.html"><span>Pedidos</span> <i
+                        class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                       <li><a href="#">Solicitudes de presupuesto</a></li>
                       <li><a href="#">Pedidos de compra</a></li>
@@ -83,7 +90,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <img src="./assets/img/Logo.png" height="100px"  width="100px" />
+      <img src="./assets/img/Logo.png" height="100px" width="100px" />
     </div>
   </header>
 
@@ -98,7 +105,8 @@
         <div class="row">
           <div class="col-lg-10">
             <h2 data-aos="fade-up" data-aos-delay="100">Odoo 18</h2>
-            <a href="https://www.odoo.com/es_ES" target="_blank" class="btn btn-lg btn-outline-light" data-aos="fade-up" data-aos-delay="200">Visita Odoo</a>
+            <a href="https://www.odoo.com/es_ES" target="_blank" class="btn btn-lg btn-outline-light" data-aos="fade-up"
+              data-aos-delay="200">Visita Odoo</a>
           </div>
         </div>
       </div>
@@ -106,7 +114,7 @@
     </section>
 
     <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    <section id="modulos" class="faq section">
 
       <div class="container">
 
@@ -116,7 +124,8 @@
             <div class="content px-xl-5">
               <h3><span>Diferentes módulos </span><strong>de Odoo</strong></h3>
               <p>
-                En esta sección se presentan los diferentes módulos que se pueden encontrar en Odoo, los cuales permiten llevar un control de la empresa de manera eficiente.
+                En esta sección se presentan los diferentes módulos que se pueden encontrar en Odoo, los cuales permiten
+                llevar un control de la empresa de manera eficiente.
               </p>
             </div>
           </div>
@@ -127,40 +136,56 @@
               <div class="faq-item faq-active">
                 <h3><span class="num">1.</span> <span>Inventario</span></h3>
                 <div class="faq-content">
-                  <p>Este módulo permite llevar un control de los productos que se encuentran en la empresa, permitiendo llevar un control de las existencias, los productos que se encuentran en stock, los productos que se encuentran en pedidos, entre otros.</p>
+                  <p>Este módulo permite llevar un control de los productos que se encuentran en la empresa, permitiendo
+                    llevar un control de las existencias, los productos que se encuentran en stock, los productos que se
+                    encuentran en pedidos, entre otros.</p>
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
+                <h3><span class="num">2.</span> <span>Empleados</span></h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>
+                    Este módulo permite llevar un control de los empleados que se encuentran en la empresa, permitiendo
+                    llevar un control de los empleados activos, los empleados inactivos, los departamentos a los que
+                    pertenecen, entre otros.
+                  </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
+                <h3><span class="num">3.</span> <span>Compra</span></h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>
+                    Este módulo permite llevar un control de las compras que se realizan en la empresa, permitiendo
+                    llevar un control de las solicitudes de presupuesto, los pedidos de compra, los proveedores, entre
+                    otros.
+                  </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
+                <h3><span class="num">4.</span> <span>Ventas</span></h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>
+                    Este módulo permite llevar un control de las ventas que se realizan en la empresa, permitiendo
+                    llevar un control de los clientes, los productos vendidos, las facturas, entre otros.
+                  </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
+                <h3><span class="num">5.</span> <span>Ajustes</span></h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p>
+                    En este módulo se puede configurar el diseño de los documentos, permitiendo ajustar el formato de
+                    los mismos según las necesidades de la empresa.
+                  </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -175,7 +200,7 @@
     </section><!-- /Faq Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="inventario" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -187,17 +212,43 @@
 
         <div class="row gy-4 align-items-stretch justify-content-between features-item ">
           <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-            <img src="assets/img/features-light-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/modulos/inventario/Inventario1.png" alt="" style="object-fit: contain;">
           </div>
           <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Primer Paso</h3>
+            <p>Creamos categorías para asignarselas a nuestros productos.</p>
+            <br />
             <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+              <li><i class="bi bi-arrow-right"></i><span>Entramos en el módulo de inventario.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Vamos a configuración, Productos, Categorías de
+                  producto.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Le damos un nombre y guardamos.</span></li>
+              <br />
+              <li><i class="bi bi-gear"></i><span>Si creamos una subcategoría, le asignamos una categoría padre.</span>
+              </li>
             </ul>
-            <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="assets/img/modulos/inventario/Inventario2.png" alt="" style="object-fit: contain;">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Segundo Paso</h3>
+            <p>Creamos un producto.</p>
+            <br />
+            <ul>
+              <li><i class="bi bi-arrow-right"></i><span>Entramos en el módulo de inventario.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Vamos a Productos, Productos y le damos a Nuevo.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Le damos un nombre, un precio y una categoría.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Por último, actualizamos la cantidad con el número de stock
+                  para la venta.</span></li>
+              <br />
+              <li><i class="bi bi-gear"></i><span>También podemos crear servicios como productos seleccionando la opción
+                  de servicio en tipo de producto.</span>
+              </li>
+            </ul>
           </div>
         </div><!-- Features Item -->
 
@@ -206,7 +257,7 @@
     </section><!-- /Features Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="productos" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -220,100 +271,71 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-app">ASUS</li>
-            <li data-filter=".filter-product">MSI</li>
+            <li data-filter=".filter-app">MSI</li>
+            <li data-filter=".filter-product">ASUS</li>
             <li data-filter=".filter-branding">LENOVO</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/msi1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>MSI Stealth 16 AI Studio A1VHG-036ES</h4>
+                <p>Una combinación de apariencia nítida y excelente rendimiento.</p>
+                <a href="assets/img/modulos/productos/msi1.png" title="MSI Stealth 16 AI Studio A1VHG-036ES"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/asus1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>ASUS ROG Strix G18 GL814JI-N6124X</h4>
+                <p>Obtén más fotogramas y gana más partidas con el nuevo Strix G18.</p>
+                <a href="assets/img/modulos/productos/asus1.png" title="ASUS ROG Strix G18 GL814JI-N6124X"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/lenovo1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Lenovo IdeaPad Slim 3 15IAH8</h4>
+                <p>Diseñada para ser liviana y delgada</p>
+                <a href="assets/img/modulos/productos/lenovo1.png" title="Lenovo IdeaPad Slim 3 15IAH8"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/msi2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>MSI GE76 Raider 10UH-061ES</h4>
+                <p>Prepárate para sentir todo el poder del juego con el potente ordenador portátil.</p>
+                <a href="assets/img/modulos/productos/msi2.png" title="MSI GE76 Raider 10UH-061ES"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/asus2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>ASUS TUF Gaming A16 Advantage Edition 2023 FA617NS-N3020</h4>
+                <p>Haz streaming y maneja la multitarea con facilidad gracias a la última CPU AMD Ryzen™ 9.</p>
+                <a href="assets/img/modulos/productos/asus2.png"
+                  title="ASUS TUF Gaming A16 Advantage Edition 2023 FA617NS-N3020" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/modulos/productos/msi3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>MSI Katana A17 AI B8VF-876XES</h4>
+                <p>Despierta tu poder interior y hereda la voluntad del Dragón.</p>
+                <a href="assets/img/modulos/productos/msi3.png" title="MSI Katana A17 AI B8VF-876XES"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -325,87 +347,135 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    <!-- Recent Posts Section -->
+    <section id="empleados" class="recent-posts section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div class="container section-title" data-aos="fade-up" id="emp">
+        <h2>Empleados</h2>
+        <p class="post-category">En este módulo podremos crear empleados y departamentos para después asignarlos a un
+          empleado.</p>
+        <br />
+        <p>Creación de Empleados</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container">
 
-        <div class="row g-4">
+        <div class="row gy-4">
 
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <div class="icon">
-                <i class="bi bi-box"></i>
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/empleados/emp1.png" alt="" height="300px">
               </div>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
+              <h2 class="title">
+                Crear empleados
+              </h2>
+              <p class="post-category">Para comenzar a crear un empleado, lo haremos desde la pestaña empleado,
+                a continuación, clicamos en el botón 'Nuevo' y rellenamos toda la información que necesitemos del
+                empleado.</p>
+            </article>
+          </div><!-- End post list item -->
 
-          <div class="col-lg-4">
-            <div class="pricing-item featured">
-              <h3>Business Plan</h3>
-              <div class="icon">
-                <i class="bi bi-rocket"></i>
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/empleados/emp2.png" height="300px" width="400px" alt="">
               </div>
+              <h2 class="title">
+                Empleado creado
+              </h2>
+              <p class="post-category">Resultado de como quedaria un empleado ya creado.</p>
+              </p>
+            </article>
+          </div><!-- End post list item -->
 
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <div class="icon">
-                <i class="bi bi-send"></i>
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/empleados/emp3.png" height="300px" width="500px" alt="">
               </div>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
+              <h2 class="title">
+                Vista organigrama
+              </h2>
+              <p class="post-category">En nuestra pestaña empleados dispondremos de una sección organigrama que nos
+                mostrará nuestros empleados
+                creados en forma de árbol.
+              </p>
+            </article>
+          </div><!-- End post list item -->
 
-        </div>
+        </div><!-- End recent posts list -->
 
       </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" id="dep">
+        <br />
+        <p>Creación de Departamentos</p>
+      </div><!-- End Section Title -->
 
-    </section><!-- /Pricing Section -->
+      <div class="container">
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+        <div class="row gy-4">
 
-      <img src="assets/img/cuaderno.jpg" alt="">
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/departamentos/dep1.png" height="300px" width="700px" alt="">
+              </div>
+              <h2 class="title">
+                Creación de Departamentos
+              </h2>
+              <p class="post-category">Para comenzar a crear un departamento, lo haremos desde la pestaña departamentos,
+                a continuación, clicamos en el botón 'Nuevo' y rellenamos toda la información que nos pida del
+                departamento.</p>
+            </article>
+          </div><!-- End post list item -->
 
-    </section><!-- /Call To Action Section -->
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/departamentos/dep2.png" height="300px" width="700px" alt="">
+              </div>
+              <h2 class="title">
+                Departamento creado
+              </h2>
+              <p class="post-category">
+                Resultado de como quedaria un departamento ya creado.
+              </p>
+            </article>
+          </div><!-- End post list item -->
 
+          <div class="col-xl-4 col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/modulos/departamentos/dep3.png" height="300px" width="400px" alt="">
+              </div>
+              <h2 class="title">
+                Vista de departamentos
+              </h2>
+              <p class="post-category">
+                La podremos visualizar de varias maneras, en la imagen se presenta en forma de árbol.
+              </p>
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+    </section><!-- /Recent Posts Section -->
+
+
+    <!-- MÓDULO COMPRA -->
+
+    <section id="compra" class="features section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Compra</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+    </section>
+    <!--Proveedores-->
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section light-background">
 
@@ -551,112 +621,210 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
-
-    <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
+    </section><!-- /Proveedores -->
+    <!-- Solicitud de presupuesto -->
+    <section id="presupuesto" class="features section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div style="text-align: start;" class="container section-title" data-aos="fade-up">
+        <h2>Solicitud de presupuesto</h2>
+        <p>Paso a paso para crear solicitudes de presupuesto</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Politics</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
+        <div class="row gy-4 align-items-stretch justify-content-between features-item">
+          <div class="container row" data-aos="fade-up">
+            <div class="portfolio-details-slider swiper init-swiper col-lg-6" style="max-width: 600px;height: 400px;">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/modulos/presupuesto/ped1.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
                 </div>
               </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
 
-            </article>
-          </div><!-- End post list item -->
+            <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+              <h3>Crear Solicitud de presupuesto</h3>
+              <p>Desde el módulo compra entramos en la pestaña pedidos</p>
+              <ul>
+                <li><i class="bi bi-arrow-right"></i><span>Seleccionamos solicitudes de presupuesto.</span></li>
+                <li><i class="bi bi-arrow-right"></i><span>Creamos una nueva solicitud desde el botón
+                    'Nuevo'.</span>
+                </li>
+                <li><i class="bi bi-arrow-right"></i><span>Rellenamos la información necesaria.</span></li>
+                <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Creación de presupuesto.</span></li>
+                <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Resultado de la creación de
+                    presupuesto.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
+        <!-- Section Title -->
+        <div style="text-align: start; margin-top: 10%;" class="container section-title" data-aos="fade-up">
+          <h2>Pedidos de compra</h2>
+          <p>Paso a paso para crear pedidos de compra</p>
+        </div><!-- End Section Title -->
+        <div class="row gy-4 align-items-stretch justify-content-between features-item mt-3">
+          <div class="container row" data-aos="fade-up">
+            <div class="portfolio-details-slider swiper init-swiper col-lg-6" style="max-width: 600px;height: 400px;">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/modulos/pedidos_compra/pedComp.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/books-1.jpg" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
                 </div>
               </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
 
-            </article>
-          </div><!-- End post list item -->
+            <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+              <h3>Crear pedidos de compra</h3>
+              <p>Los pedidos de compra se crean automáticamente después de crear un presupuesto.</p>
+              <br />
+              <ul>
+                <li><i class="bi bi-arrow-right"></i><span>Entramos en el módulo de inventario.</span></li>
+                <li><i class="bi bi-arrow-right"></i><span>Vamos a Productos, Productos y le damos a Nuevo.</span>
+                </li>
+                <li><i class="bi bi-arrow-right"></i><span>Le damos un nombre, un precio y una categoría.</span>
+                </li>
+                <li><i class="bi bi-arrow-right"></i><span>Por último, actualizamos la cantidad con el número de
+                    stock
+                    para la venta.</span></li>
+                <br />
+                <li><i class="bi bi-gear"></i><span>También podemos crear servicios como productos seleccionando la
+                    opción
+                    de servicio en tipo de producto.</span>
+                </li>
+              </ul>
+            </div>
+          </div><!-- Features Item -->
+        </div>
+      </div>
+    </section><!-- / solicitud presupuesto -->
+    </div>
+    </section><!-- / MÓDULO COMPRA -->
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
+    <!-- Features Section -->
+    <section id="inventario" class="features section">
 
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Ajustes</h2>
+        <p>En este módulo, vamos a configurar el diseño de nuestros documentos.</p>
+      </div><!-- End Section Title -->
 
-              <p class="post-category">Entertainment</p>
+      <div class="container">
 
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="assets/img/modulos/ajustes/ajustes1.png" alt="" style="object-fit: contain;">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Primer Paso</h3>
+            <p>Buscamos la opción de gestionar diseño de documento.</p>
+            <br />
+            <ul>
+              <li><i class="bi bi-arrow-right"></i><span>Entramos en el módulo de ajustes.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Vamos a Opciones generales.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Buscamos el apartado de Compañías, Diseño de documento.</span>
+              </li>
+              <li><i class="bi bi-arrow-right" style="color: #017E84"></i><span style="color: #017E84">Configurar diseño
+                  de documento.</span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
 
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End recent posts list -->
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="assets/img/modulos/ajustes/ajustes2.png" alt="" style="object-fit: contain;">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Segundo Paso</h3>
+            <p>Configuramos nuestro documento.</p>
+            <br />
+            <ul>
+              <li><i class="bi bi-arrow-right"></i><span>Escogemos el diseño del documento (Striped en nuestro
+                  caso)</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Escogemos el tipo de letra.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Configuramos el logotipo de la empresa.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Añadimos la dirección, un lema y un pie de página.</span></li>
+              <li><i class="bi bi-arrow-right"></i><span>Dandole a confirmar, ya tendremos nuestros documentos
+                  configurados.</span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
 
       </div>
 
-    </section><!-- /Recent Posts Section -->
-  
-  <!--video Odoo-->
+    </section><!-- /Features Section -->
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cuaderno.jpg" alt="">
+
+    </section><!-- /Call To Action Section -->
+    <!--video Odoo-->
     <section>
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-lg-10 pt-8">
             <h2 class="display-6 text-center mb-6">
-              <span class="display-5 fondoRed">Mejora</span> la calidad de tu <span class="display-5 fondoGreen">trabajo</span>
+              <span class="display-5 fondoRed">Mejora</span> la calidad de tu <span
+                class="display-5 fondoGreen">trabajo</span>
             </h2>
             <div class="mb-n5 text-center">
               <video loop="loop" muted="muted" autoplay height=auto width="80%" controls>
@@ -667,6 +835,82 @@
         </div>
       </div>
     </section>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Precios</h2>
+        <p>¡No estás <span style="font-size: 20px;" class="fondoRed">soñando</span>!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Una aplicación gratis</h3>
+              <div class="icon">
+                <i class="bi bi-bag-x-fill"></i>
+              </div>
+              <h4><sup>€</sup>0<span> / mes</span></h4>
+              <ul>
+                <li><i class="bi bi-backspace-reverse"></i> <span>Usuarios limitados</span></li>
+                <li><i class="bi bi-check"></i> <span><b>Una sola aplicación</b></span></li>
+                <li><i class="bi bi-check"></i> <span>Odoo Online</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Odoo Studio</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Multiempresa</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>API externa</span></li>
+              </ul>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">EMPIEZA AHORA</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4">
+            <div class="pricing-item featured">
+              <h3>Estándar</h3>
+              <div class="icon">
+                <i class="bi bi-bag-check"></i>
+              </div>
+
+              <h4><sup>€</sup>11,90<span> / por usuario al mes</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span><b>Todas las aplicaciones</b></span></li>
+                <li><i class="bi bi-check"></i> <span>Odoo Online</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Odoo Studio</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Multiempresa</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>API externa</span></li>
+              </ul>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">CÓMPRALO AHORA</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Personalizado</h3>
+              <div class="icon">
+                <i class="bi bi-person-fill-gear"></i>
+              </div>
+              <h4><sup>€</sup>17,90<span> / por usuario al mes</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span><b>Todas las aplicaciones</b></span></li>
+                <li><i class="bi bi-check"></i> <span>Odoo Online / Odoo.sh**</span></li>
+                <li><i class="bi bi-check"></i> <span>On-premise</span></li>
+                <li><i class="bi bi-check"></i> <span>Odoo Studio</span></li>
+                <li><i class="bi bi-check"></i> <span>Multiempresa</span></li>
+                <li><i class="bi bi-check"></i> <span>API externa</span></li>
+              </ul>
+              <div class="text-center"><a href="https://www.odoo.com/es_ES" class="buy-btn">CÓMPRALO AHORA</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -675,9 +919,13 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Append</span>
+            <span class="sitename"
+              style="background: linear-gradient(to right, gray, purple); -webkit-background-clip: text; background-clip: text; color: transparent;">Módulos
+              de Odoo</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Odoo ofrece una amplia gama de módulos que optimizan la gestión de tu negocio, desde la contabilidad hasta
+            el inventario, mejorando la eficiencia y facilitando la toma de decisiones en una plataforma flexible y
+            fácil de usar.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -686,35 +934,13 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        <div class="offset-lg-4 col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contacto</h4>
+          <p>C. Estrella Proción, 10</p>
+          <p>Andalucía, Sevilla 41015</p>
+          <p>España</p>
+          <p class="mt-4"><strong>Teléfono:</strong> <span>+34 955 62 38 16</span></p>
+          <p><strong>Web:</strong> <span>iesjulioverne.es</span></p>
         </div>
 
       </div>
@@ -734,7 +960,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>

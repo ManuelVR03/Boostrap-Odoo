@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,33 +43,38 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0"> 
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <h1 class="sitename">Home</h1><span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <li class="dropdown"><a href="modulos.html"><span>Módulos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="modulos.html"><span>Módulos</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a href="modulos.html" class="active"><span>Inventario</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html#inventario"><span>Inventario</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="modulos.html">Productos</a></li>
+                  <li><a href="modulos.html#productos">Productos</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="modulos.html"><span>Empleados</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html#empleados"><span>Empleados</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Empleados</a></li>
-                  <li><a href="#">Departamentos</a></li>
+                  <li><a href="#emp">Empleados</a></li>
+                  <li><a href="#dep">Departamentos</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="modulos.html"><span>Compras</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="modulos.html"><span>Compras</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li class="dropdown" id="dropdownS"><a href="modulos.html"><span>Pedidos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <li class="dropdown" id="dropdownS"><a href="modulos.html"><span>Pedidos</span> <i
+                        class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                       <li><a href="modulos.html">Solicitudes de presupuesto</a></li>
                       <li><a href="modulos.html">
-                        Pedidos de compra </a></li>
+                          Pedidos de compra </a></li>
                       <li><a href="modulos.html">Proveedores</a></li>
                     </ul>
                   </li>
@@ -83,7 +90,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <img src="./assets/img/Logo.png" height="100px"  width="100px" />
+      <img src="./assets/img/Logo.png" height="100px" width="100px" />
     </div>
   </header>
 
@@ -121,7 +128,7 @@
             <img src="assets/img/clients/odoo.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
-          <div class="col-xl-2 col-md-3 col-6 client-logo" >
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/bootstrap.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
@@ -150,8 +157,9 @@
         <div class="row align-items-xl-center gy-5">
 
           <div class="col-xl-5 content">
-            <h2>Módulos de Odoo</h2>
-            <p>A través de los siguientes módulos, cualquier empresa puede empezar a implantar su ERP, siempre ajustándolo a sus necesidades e integrando todos los módulos específicos necesarios para su sector.</p>
+            <h2 style="background: linear-gradient(to right, #E84545, gray); -webkit-background-clip: text; background-clip: text; color: transparent;">Módulos de Odoo</h2>
+            <p>A través de los siguientes módulos, cualquier empresa puede empezar a implantar su ERP, siempre
+              ajustándolo a sus necesidades e integrando todos los módulos específicos necesarios para su sector.</p>
             <!--poner en el href enlace a la pagina dond hablemos de los modulos -->
             <a href="./modulos.html" class="read-more"><span>Mostrar más</span><i class="bi bi-arrow-right"></i></a>
           </div>
@@ -206,28 +214,32 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                class="purecounter"></span>
               <p>Clientes</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                class="purecounter"></span>
               <p>Proyectos</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1"
+                class="purecounter"></span>
               <p>Horas Empleadas</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                class="purecounter"></span>
               <p>Empleados</p>
             </div>
           </div><!-- End Stats Item -->
@@ -266,7 +278,8 @@
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
               <div>
                 <h4 class="title"><a href="modulos.html" class="stretched-link">Módulos de Odoo</a></h4>
-                <p class="description">Aquí tendras acceso a la explicación de cada uno de los módulos que hemos trabajado en Odoo.</p>
+                <p class="description">Aquí tendras acceso a la explicación de cada uno de los módulos que hemos
+                  trabajado en Odoo.</p>
               </div>
             </div>
           </div>
@@ -308,8 +321,9 @@
             <div class="text-center">
               <h3>¿Quiénes somos?</h3>
               <p>Somos un equipo de desarrolladores en formación conformado por 2 personas.
-                Nuestro proyecto se enfoca en la creación de una Web que sirva como guía para el uso de Odoo y Bootstrap para nuestra
-                 asignatura de Sistemas de Gestión Empresarial.</p>
+                Nuestro proyecto se enfoca en la creación de una Web que sirva como guía para el uso de Odoo y Bootstrap
+                para nuestra
+                asignatura de Sistemas de Gestión Empresarial.</p>
               </p>
               <a class="cta-btn" href="#contact">Contacto</a>
             </div>
@@ -429,7 +443,8 @@
           </div>
 
           <div class="col-lg-6" id="contact">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -474,9 +489,10 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Home</span>
+            <span class="sitename" style="background: linear-gradient(to right, #E84545, gray); -webkit-background-clip: text; background-clip: text; color: transparent;">Home</span>
           </a>
-          <p>"© 2024 Verdejo Rodríguez Enterprise. Todos los derechos reservados. | Creado con pasión y dedicación para ofrecerte la mejor experiencia en línea."</p>
+          <p>"© 2024 Verdejo Rodríguez Enterprise. Todos los derechos reservados. | Creado con pasión y dedicación para
+            ofrecerte la mejor experiencia en línea."</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -485,15 +501,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <div class="offset-lg-4 col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contacto</h4>
           <p>C. Estrella Proción, 10</p>
           <p>Andalucía, Sevilla 41015</p>
@@ -519,7 +527,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
