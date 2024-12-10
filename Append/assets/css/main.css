@@ -1174,6 +1174,20 @@ section,
   font-size: 14px;
 }
 
+
+
+/*
+Imágenes
+*/
+
+.x_wd_app_entry figure img {
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.x_wd_app_entry:hover figure img {
+  transform: scale(1.3); /* Aumenta el tamaño de la imagen un 10% */
+}
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
