@@ -29,24 +29,22 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <style>
-    h6 {
+    h4 {
       color: #E84545;
     }
+
     h2 {
       background: linear-gradient(to right, rgb(174, 0, 255), red);
-      -webkit-background-clip: text; 
-      background-clip: text; 
+      -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
+    }
+
+    .caja {
+      margin-bottom: 200px;
     }
   </style>
 
-  <!-- =======================================================
-  * Template Name: Append
-  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="blog-page">
@@ -55,7 +53,6 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Bootstrap</h1><span>.</span>
       </a>
 
@@ -74,8 +71,8 @@
               <li class="dropdown"><a href="modulos.html#empleados"><span>Empleados</span> <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="modulos.html#emp">Empleados</a></li>
-                  <li><a href="modulos.html#dep">departamentos</a></li>
+                  <li><a href="#emp">Empleados</a></li>
+                  <li><a href="#dep">Departamentos</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="modulos.html#compra"><span>Compra</span> <i
@@ -92,7 +89,13 @@
                   <li><a href="modulos.html#productos">Productos</a></li>
                 </ul>
               </li>
-              <li><a href="modulos.html">Ventas</a></li>
+              <li class="dropdown"><a href="modulos.html#ptventa"><span>Punto de venta</span><i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="modulos.html#ptventaProd">Productos</a></li>
+                  <li><a href="modulos.html#ptventaTab">Tablero</a></li>
+                </ul>
+              </li>
               <li><a href="modulos.html#ajustes">Ajustes</a></li>
             </ul>
           </li>
@@ -101,8 +104,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <img src="./assets/img/Logo.png" height="100px"  width="100px" />
+      <img src="./assets/img/Logo.png" height="100px" width="100px" />
     </div>
   </header>
   <main class="main">
@@ -110,36 +112,39 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
+        <div class="container d-flex justify-content-between align-items-center">
+          <ol class="mb-0">
             <li>Home</li>
             <li class="current"><a class="active">Bootstrap</a></li>
           </ol>
+          <!-- Botón alineado a la derecha -->
+          <a href="https://bootstrapmade.com/append-bootstrap-website-template/" target="_blank"
+            class="btn btn-sm btn-outline-dark" data-aos="fade-up" data-aos-delay="200">Plantilla utilizada</a>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    
+
 
     <!-- Bootstrap -->
-
     <section id="bootstrap">
       <div class="container">
 
         <div class="row">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/logo1.png" alt="" class="img-fluid mt-5" height="300px" width="300px" />
           </div>
           <div class="col-lg-4 text-center">
             <h2>Creación del Logo</h2>
-            <p>Para crear el logo de nuestra empresa, hemos utilizado la herramienta de diseño gráfico online Canva.</p>
+            <p style="margin-top: 100px;">Para crear el logo de nuestra empresa, hemos utilizado la herramienta de
+              diseño gráfico online Canva.</p>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/Logo.png" alt="" class="img-fluid" height="600px" width="600px" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
             <h2>Antes</h2>
           </div>
@@ -151,162 +156,152 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/menu1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Menú Dropdown triple</h6>
-            <p>No podiamos poner un dropdown dentro de otro dropdown y aparte cuando lo conseguiamos, no salía como queríamos por lo que tuvimos que añadir esta clase de css.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <h4>Menú Dropdown triple</h4>
+            <img src="./assets/img/bootstrap/menu3.png" alt="" class="img-fluid" />
+            <p>No podiamos poner un dropdown dentro de otro dropdown y aparte cuando lo conseguiamos, no salía como
+              queríamos por lo que tuvimos que añadir esta clase de css.</p>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/menu2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/boton1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Botón personalizado</h6>
+            <h4>Botón personalizado</h4>
+            <img src="./assets/img/bootstrap/boton3.png" alt="" class="img-fluid" />
             <p>La plantilla tenía un botón por defecto y nosotros hemos hecho uno.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/boton2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/equipo1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Adaptación del sistema de Grids</h6>
+            <h4>Adaptación del sistema de Grids</h4>
+            <img src="./assets/img/bootstrap/equipo3.png" alt="" class="img-fluid" />
             <p>Cambiando las clases css que tiene Bootstrap, adaptamos la parte de equipo de 3 columnas a 2.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <h6>Adaptación del sistema de Grids</h6>
-            <p>Cambiando las clases css que tiene Bootstrap, adaptamos la parte de equipo de 3 columnas a 2.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/equipo2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/pie1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Adaptación del sistema de Grids 2</h6>
+            <h4>Adaptación del sistema de Grids 2</h4>
+            <img src="./assets/img/bootstrap/pie3.png" alt="" class="img-fluid" />
             <p>Hemos adaptado los footers de las 4 webs dejando solo una columna.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <h6>Títulos con degradado de colores</h6>
-            <p>Para darle mejor visibilidad hemos implementado mediante css, degradados de colores a algunos títulos.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/pie2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/color1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Iconos de los módulos de Odoo</h6>
-            <p>Hemos adaptado la parte de los iconos de la plantilla de tal manera que hemos incluido los iconos propios de los módulos de Odoo y le hemos dado una transición al pasar por encima.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <h4>Títulos con degradado de colores</h4>
+            <img src="./assets/img/bootstrap/color3.png" alt="" class="img-fluid" />
+            <p>Para darle mejor visibilidad hemos implementado mediante css, degradados de colores a algunos títulos.
+            </p>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <h6>Productos y filtro</h6>
-            <p>La plantilla tenía de base unas imágenes de distintos tamaños y para adaptar nuestros productos hemos tenido que cambiar un poco el sistema de grids y aparte, en esta misma sección, hemos adaptado los filtros para que salgan los productos correspondientes a sus marcas.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
-          </div>
-          <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/color2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/iconos1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Vídeo de Odoo</h6>
+            <h4>Iconos de los módulos de Odoo</h4>
+            <img src="./assets/img/bootstrap/iconos3.png" alt="" class="img-fluid" />
+            <p>Hemos adaptado la parte de los iconos de la plantilla de tal manera que hemos incluido los iconos propios
+              de los módulos de Odoo y le hemos dado una transición al pasar por encima.</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="./assets/img/bootstrap/iconos2.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row caja">
+          <div class="col-lg-4 text-center">
+            <img src="./assets/img/bootstrap/productos1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-4 text-center">
+            <h4>Productos y filtro</h4>
+            <img src="./assets/img/bootstrap/productos3.png" alt="" class="img-fluid" />
+            <p>La plantilla tenía de base unas imágenes de distintos tamaños y para adaptar nuestros productos hemos
+              tenido que cambiar un poco el sistema de grids y aparte, en esta misma sección, hemos adaptado los filtros
+              para que salgan los productos correspondientes a sus marcas.</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="./assets/img/bootstrap/productos2.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row caja">
+          <div class="col-lg-4 text-center">
+            <img src="./assets/img/bootstrap/video1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-4 text-center">
+            <h4>Vídeo de Odoo</h4>
+            <img src="./assets/img/bootstrap/video3.png" alt="" class="img-fluid" />
             <p>La plantilla no tenía ningún apartado con vídeo, por lo que desde 0 hemos incluido un vídeo.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/video2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/daily1.png" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Creación de imágenes personalizadas</h6>
+            <h4>Creación de imágenes personalizadas</h4>
             <p>Al igual que con el logo, hemos creado una imagen personalizada para la web que contiene el Daily.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/daily2.png" alt="" class="img-fluid" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="row caja">
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <h6>Tabla Bootstrap Daily</h6>
+            <h4>Tabla Bootstrap Daily</h4>
             <p>Hemos creado con Bootstrap una tabla en la que hemos puesto nuestro Daily.</p>
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-4 text-center">
-            <img src="./assets/img/bootstrap/" alt="" class="img-fluid"/>
+            <img src="./assets/img/bootstrap/tabla1.png" alt="" class="img-fluid" />
           </div>
         </div>
 
       </div>
-    </section>  
+    </section>
 
     <!-- END Bootstrap -->
 
@@ -317,16 +312,17 @@
   <footer id="footer" class="footer position-relative light-background">
 
     <div class="container footer-top">
-      <div class="row gy-4">
+      <div class="row caja gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="bootstrap.html" class="logo d-flex align-items-center">
-            <span class="sitename" style="background: linear-gradient(to right, purple, rgb(205, 26, 255)); -webkit-background-clip: text; background-clip: text; color: transparent;">BOOTSTRAP</span>
+            <span class="sitename"
+              style="background: linear-gradient(to right, purple, rgb(205, 26, 255)); -webkit-background-clip: text; background-clip: text; color: transparent;">BOOTSTRAP</span>
           </a>
-          <p>Bootstrap es un framework multiplataforma o conjunto de herramientas 
-            de código abierto para diseño de sitios y aplicaciones web. 
-            Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, 
-            menús de navegación y otros elementos de diseño basado en HTML y CSS, así como 
-            extensiones de JavaScript adicionales. A diferencia de muchos frameworks web, 
+          <p>Bootstrap es un framework multiplataforma o conjunto de herramientas
+            de código abierto para diseño de sitios y aplicaciones web.
+            Contiene plantillas de diseño con tipografía, formularios, botones, cuadros,
+            menús de navegación y otros elementos de diseño basado en HTML y CSS, así como
+            extensiones de JavaScript adicionales. A diferencia de muchos frameworks web,
             solo se ocupa del desarrollo front-end.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -351,11 +347,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="sitename">Append</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        designed by <a href="https://bootstrapmade.com/append-bootstrap-website-template/">BootstrapMade</a>
       </div>
     </div>
 

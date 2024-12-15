@@ -29,13 +29,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Append
-  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -84,8 +77,8 @@
               <li class="dropdown"><a href="#ptventa"><span>Punto de venta</span><i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#ptventa">Productos</a></li>
-                  <li><a href="#ptventa">Tablero</a></li>
+                  <li><a href="#ptventaProd">Productos</a></li>
+                  <li><a href="#ptventaTab">Tablero</a></li>
                 </ul>
               </li>
               <li><a href="#ajustes">Ajustes</a></li>
@@ -941,14 +934,14 @@
     </section>
     <!-- / MÓDULO COMPRA -herramienta visual e interactiva que permite a los usuarios obtener una visión general del rendimiento de las ventas y el estado de la operación en tiempo real. -->
 
-    <!--PRUEBA--><!--      <h4 class="post-modern-title"><a class="post-modern-title" href="#">Productos</a></h4>-->
-    <div class="container section-title" data-aos="fade-up" id="emp">
+    <!--PRUEBA-->
+    <div class="container section-title" data-aos="fade-up" id="ptventa">
       <h2>Punto de venta</h2>
     </div>
-    <section id="ptventa" class="features section portfolio-details">
+    <section id="ptventaProd" class="features section portfolio-details">
       <div class="container">
         <h2 class="post-modern-title"><a class="post-modern-title" href="#">Productos</a></h2>
-        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+        <div class="row align-items-stretch justify-content-between features-item ">
           <div class="container row" data-aos="fade-up">
             <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
               <p><strong>Sección clave que permite gestionar los artículos que se venden en el restaurante o en
@@ -1007,6 +1000,8 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="ptventaTab" class="features section portfolio-details">
       <div class="container">
         <div class="row">
           <div>
@@ -1015,11 +1010,12 @@
         </div>
       </div>
       <br />
-      <div class="container">
+      <div class="container" id="ptventaTab">
         <h2 class="post-modern-title"><a class="post-modern-title" href="#">Tablero</a></h2>
         <div class="row  align-items-stretch justify-content-between features-item">
           <div class="container row" data-aos="fade-up">
-            <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+
+            <div class="col-lg-6 d-flex justify-content-center flex-column mt-4" data-aos="fade-up">
               <p><strong>Herramienta visual e interactiva que permite a los usuarios obtener una visión general del
                   rendimiento de las ventas y el estado de la operación en tiempo real.</strong></p>
               <ul>
@@ -1042,10 +1038,11 @@
                 </li>
                 <li><i class="bi bi-6-circle-fill"></i><span>Sexta foto:Aparecen los distintos métodos de pago, pulsamos
                     el deseado y validamos. Puntos a tener en cuenta antes de validar:
-                    <br/>
+                    <br />
                     -En el caso que paguemos en efectivos, en caso de que el pago no sea exacto, introducimos la
-                    cantidad que vamos a recibir por parte del cliente y muestra el cambio que tendra que recibir.A continuación validamos.
-                    <br/>
+                    cantidad que vamos a recibir por parte del cliente y muestra el cambio que tendra que recibir.A
+                    continuación validamos.
+                    <br />
                     -En caso de pago por tarjeta, clicamos directamente en validar.
                   </span>
                 </li>
@@ -1084,6 +1081,18 @@
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/puntoventa/Captura4.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura9.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura8.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura7.png" alt=""
                     style="object-fit: contain; width: 100%; height: 100%;">
                 </div>
                 <div class="swiper-slide">
@@ -1302,11 +1311,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="sitename">Append</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/append-bootstrap-website-template/">BootstrapMade</a>
       </div>
     </div>
 
