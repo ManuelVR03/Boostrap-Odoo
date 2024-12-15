@@ -82,11 +82,12 @@
                 </ul>
               </li>
               <li class="dropdown"><a href="#ptventa"><span>Punto de venta</span><i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#ptventa">Productos</a></li>
                   <li><a href="#ptventa">Tablero</a></li>
-                </ul></li>
+                </ul>
+              </li>
               <li><a href="#ajustes">Ajustes</a></li>
             </ul>
           </li>
@@ -152,8 +153,7 @@
               <a class="x_wd_app_entry col-4 col-sm-3 col-lg-2 text-center mb-3 p-0">
                 <figure>
                   <img width="80px" class="img-thumbnail rounded-1 mb-3"
-                    src="assets/img/modulos/puntodeventa/puntoventa.png" alt="Odoo Inventario icon"
-                    loading="lazy">
+                    src="assets/img/modulos/puntodeventa/puntoventa.png" alt="Odoo Inventario icon" loading="lazy">
                   <figcaption class="text-truncate small text-o-color-5">Punto de venta</figcaption>
                 </figure>
               </a>
@@ -231,7 +231,7 @@
                 <div class="faq-content">
                   <p>
                     Módulo cuyo fin es gestionar ventas en negocios físicos, como tiendas,
-                     restaurantes o cafeterías. Su objetivo es facilitar y optimizar las operaciones de venta directa
+                    restaurantes o cafeterías. Su objetivo es facilitar y optimizar las operaciones de venta directa
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -752,23 +752,24 @@
               </ul>
             </div>
           </div><!-- Features Item -->
+        </section>
 
-          <!-- Solicitud de presupuesto -->
-          <section id="presupuesto" class="features section">
+        <!-- Solicitud de presupuesto -->
+        <section id="presupuesto" class="features section portfolio-details">
 
-            <!-- Section Title -->
-            <div style="text-align: start;" class="container section-title" data-aos="fade-up">
-              <h2>Solicitud de presupuesto</h2>
-              <p>Paso a paso para crear solicitudes de presupuesto</p>
-            </div><!-- End Section Title -->
+          <!-- Section Title -->
+          <div style="text-align: start;" class="container section-title" data-aos="fade-up">
+            <h2>Solicitud de presupuesto</h2>
+            <p>Paso a paso para crear solicitudes de presupuesto</p>
+          </div><!-- End Section Title -->
 
-            <div class="container">
+          <div class="container">
 
-              <div class="row gy-4 align-items-stretch justify-content-between features-item">
-                <div class="container row" data-aos="fade-up">
-                  <div class="portfolio-details-slider swiper init-swiper col-lg-6"
-                    style="max-width: 600px;height: 400px;">
-                    <script type="application/json" class="swiper-config">
+            <div class="row gy-4 align-items-stretch justify-content-between features-item">
+              <div class="container row" data-aos="fade-up">
+                <div class="portfolio-details-slider swiper swiper2 init-swiper col-lg-6"
+                  style="max-width: 600px;height: 400px;">
+                  <script type="application/json" class="swiper-config">
                   {
                   "loop": true,
                   "speed": 600,
@@ -781,129 +782,130 @@
                     "prevEl": ".swiper-button-prev"
                   },
                   "pagination": {
-                    "el": ".swiper-pagination2",
+                    "el": ".swiper-pagination",
                     "type": "bullets",
                     "clickable": true
                   }
                   }
                   </script>
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                      <img src="assets/img/modulos/presupuesto/ped1.png" alt=""
+                        style="object-fit: contain; width: 100%; height: 100%;">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
+                        style="object-fit: contain; width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+                  <h3>Crear Solicitud de presupuesto</h3>
+                  <p>Desde el módulo compra entramos en la pestaña pedidos</p>
+                  <ul>
+                    <li><i class="bi bi-arrow-right"></i><span>Seleccionamos solicitudes de presupuesto.</span></li>
+                    <li><i class="bi bi-arrow-right"></i><span>Creamos una nueva solicitud desde el botón
+                        'Nuevo'.</span>
+                    </li>
+                    <li><i class="bi bi-arrow-right"></i><span>Rellenamos la información necesaria.</span></li>
+                    <br />
+                    <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Creación de presupuesto.</span></li>
+                    <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Resultado de la creación de
+                        presupuesto.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section Title -->
+            <section id="pedido">
+              <div style="text-align: start; margin-top: 7%;" class="container section-title" data-aos="fade-up">
+                <h2>Pedidos de compra</h2>
+                <p>Paso a paso para crear pedidos de compra</p>
+              </div><!-- End Section Title -->
+              <div class="row gy-4 align-items-stretch justify-content-between features-item mt-3">
+                <div class="container row" data-aos="fade-up">
+                  <div class="portfolio-details-slider swiper swiper3 init-swiper col-lg-6"
+                    style="max-width: 600px;height: 500px;">
+                    <script type="application/json" class="swiper-config">
+                      {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      },
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                      }
+                    </script>
                     <div class="swiper-wrapper align-items-center">
                       <div class="swiper-slide">
-                        <img src="assets/img/modulos/presupuesto/ped1.png" alt=""
+                        <img src="assets/img/modulos/pedidos_compra/pedComp1.0.png" alt=""
                           style="object-fit: contain; width: 100%; height: 100%;">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/modulos/presupuesto/ped2.png" alt=""
+                        <img src="assets/img/modulos/pedidos_compra/ped3.1.png" alt=""
                           style="object-fit: contain; width: 100%; height: 100%;">
                       </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modulos/pedidos_compra/pedComp.png" alt=""
+                          style="object-fit: contain; width: 100%; height: 100%;">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modulos/pedidos_compra/ped4.png" alt=""
+                          style="object-fit: contain; width: 100%; height: 100%;">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modulos/pedidos_compra/pedComp2.png" alt=""
+                          style="object-fit: contain; width: 100%; height: 100%;">
+                      </div>
+
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-                    <div class="swiper-pagination2"></div>
+                    <div class="swiper-pagination"></div>
                   </div>
 
                   <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
-                    <h3>Crear Solicitud de presupuesto</h3>
-                    <p>Desde el módulo compra entramos en la pestaña pedidos</p>
+                    <h3>Crear y validar pedidos de compra</h3>
+                    <p>Los pedidos de compra se crean automáticamente después de crear un presupuesto.</p>
+                    <br />
                     <ul>
-                      <li><i class="bi bi-arrow-right"></i><span>Seleccionamos solicitudes de presupuesto.</span></li>
-                      <li><i class="bi bi-arrow-right"></i><span>Creamos una nueva solicitud desde el botón
-                          'Nuevo'.</span>
+                      <li><i class="bi bi-arrow-right"></i><span>Desde la pestaña pedidos entramos en pedidos de
+                          compra.</span></li>
+                      <li><i class="bi bi-arrow-right"></i><span>Abrimos el pedido de compra que queramos validar y
+                          clicamos en recibir productos</span>
                       </li>
-                      <li><i class="bi bi-arrow-right"></i><span>Rellenamos la información necesaria.</span></li>
-                      <br />
-                      <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Creación de presupuesto.</span></li>
-                      <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Resultado de la creación de
-                          presupuesto.</span></li>
+                      <li><i class="bi bi-arrow-right"></i><span>A continuación validamos la recepción del
+                          pedido</span>
+                      </li>
+                      <li><i class="bi bi-arrow-right"></i><span>Tras esto, clicamos en enviar pedido de compra por
+                          correo
+                          electrónico para generar el pdf.</span></li>
+                      <li><i class="bi bi-arrow-right"></i><span>Para finalizar, se nos abrirá una ventana emergente
+                          que
+                          contiene el pdf (lo podremos descargar), pulsamos enviar.</span></li>
                     </ul>
+
                   </div>
-                </div>
-              </div>
-
-              <!-- Section Title -->
-              <section id="pedido">
-                <div style="text-align: start; margin-top: 7%;" class="container section-title" data-aos="fade-up">
-                  <h2>Pedidos de compra</h2>
-                  <p>Paso a paso para crear pedidos de compra</p>
-                </div><!-- End Section Title -->
-                <div class="row gy-4 align-items-stretch justify-content-between features-item mt-3">
-                  <div class="container row" data-aos="fade-up">
-                    <div class="portfolio-details-slider swiper init-swiper col-lg-6"
-                      style="max-width: 600px;height: 400px;">
-                      <script type="application/json" class="swiper-config">
-                  {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "navigation": {
-                    "nextEl": ".swiper-button-next",
-                    "prevEl": ".swiper-button-prev"
-                  },
-                  "pagination": {
-                    "el": ".swiper-pagination3",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                  }
-                  </script>
-                      <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide">
-                          <img src="assets/img/modulos/pedidos_compra/pedComp1.0.png" alt=""
-                            style="object-fit: contain; width: 100%; height: 100%;">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="assets/img/modulos/pedidos_compra/ped3.1.png" alt=""
-                            style="object-fit: contain; width: 100%; height: 100%;">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="assets/img/modulos/pedidos_compra/pedComp.png" alt=""
-                            style="object-fit: contain; width: 100%; height: 100%;">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="assets/img/modulos/pedidos_compra/ped4.png" alt=""
-                            style="object-fit: contain; width: 100%; height: 100%;">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="assets/img/modulos/pedidos_compra/pedComp2.png" alt=""
-                            style="object-fit: contain; width: 100%; height: 100%;">
-                        </div>
-
-                      </div>
-                      <div class="swiper-button-prev"></div>
-                      <div class="swiper-button-next"></div>
-                      <div class="swiper-pagination3"></div>
-                    </div>
-
-                    <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
-                      <h3>Crear y validar pedidos de compra</h3>
-                      <p>Los pedidos de compra se crean automáticamente después de crear un presupuesto.</p>
-                      <br />
-                      <ul>
-                        <li><i class="bi bi-arrow-right"></i><span>Desde la pestaña pedidos entramos en pedidos de
-                            compra.</span></li>
-                        <li><i class="bi bi-arrow-right"></i><span>Abrimos el pedido de compra que queramos validar y
-                            clicamos en recibir productos</span>
-                        </li>
-                        <li><i class="bi bi-arrow-right"></i><span>A continuación validamos la recepción del
-                            pedido</span>
-                        </li>
-                        <li><i class="bi bi-arrow-right"></i><span>Tras esto, clicamos en enviar pedido de compra por
-                            correo
-                            electrónico para generar el pdf.</span></li>
-                        <li><i class="bi bi-arrow-right"></i><span>Para finalizar, se nos abrirá una ventana emergente
-                            que
-                            contiene el pdf (lo podremos descargar), pulsamos enviar.</span></li>
-                      </ul>
-
-                    </div>
-                  </div><!-- Features Item -->
+                  <!-- Features Item -->
                   <div class="row">
                     <div class="col-lg-6" style="margin-top: 70px;">
                       <ul>
-                        <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Pestaña en la que se visualizan todos
+                        <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Pestaña en la que se visualizan
+                            todos
                             los pedidos de compra.</span></li>
                         <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Botón de recibir productos dentro de
                             un
@@ -916,6 +918,8 @@
                             electrónico.</span></li>
                       </ul>
                     </div>
+
+
                     <div class="col-lg-6">
                       <section id="service-details" class="service-details section">
                         <div class="service-box">
@@ -929,66 +933,177 @@
                     </div>
                   </div>
                 </div>
-              </section>
-          </section><!-- / solicitud presupuesto -->
+              </div>
+            </section>
+          </div>
+        </section><!-- / solicitud presupuesto -->
       </div>
-    </section><!-- / MÓDULO COMPRA -->
+    </section>
+    <!-- / MÓDULO COMPRA -herramienta visual e interactiva que permite a los usuarios obtener una visión general del rendimiento de las ventas y el estado de la operación en tiempo real. -->
 
-    <!--PRUEBA-->
-    <section class="section novi-background section-md text-center" id="ptventa">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Punto de venta</h2>
-        <p>En este módulo, vamos a configurar el diseño de nuestros documentos.</p>
+    <!--PRUEBA--><!--      <h4 class="post-modern-title"><a class="post-modern-title" href="#">Productos</a></h4>-->
+    <div class="container section-title" data-aos="fade-up" id="emp">
+      <h2>Punto de venta</h2>
+    </div>
+    <section id="ptventa" class="features section portfolio-details">
+      <div class="container">
+        <h2 class="post-modern-title"><a class="post-modern-title" href="#">Productos</a></h2>
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="container row" data-aos="fade-up">
+            <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+              <p><strong>Sección clave que permite gestionar los artículos que se venden en el restaurante o en
+                  cualquier otro negocio que utilice el sistema de punto de venta.</strong></p>
+              <ul>
+                <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Pestaña 'Productos' en la que aparecerán todos
+                    los productos disponibles de nuestro comercio.</span></li>
+                <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Recopilación de productos por defecto que
+                    contiene nuestro comercio el cual es un Restaurante.
+                    Si clicamos en uno de ellos pasaremos al modo edición de ese producto.</span></li>
+                <li><i class="bi bi-3-circle-fill"></i><span>Tercera foto:Modo edición del producto, en el cual podremos
+                    editar toda la información posible, como el nombre, la imagen, el precio...etc.</span></li>
+              </ul>
+            </div>
+            <div class="portfolio-details-slider swiper col-lg-6 swiper4" style="max-width: 600px;height: 500px;">
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  var swiper = new Swiper('.swiper4', {
+                    loop: true,
+                    speed: 600,
+                    autoplay: {
+                      delay: 5000
+                    },
+                    slidesPerView: 'auto',
+                    navigation: {
+                      nextEl: '.swiper-button-next',
+                      prevEl: '.swiper-button-prev'
+                    },
+                    pagination: {
+                      el: '.swiper-pagination',
+                      type: 'bullets',
+                      clickable: true
+                    }
+                  });
+                });
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura1.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/productosRest.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura2.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container">
-        <div class="row row-lg-50 row-35 offset-top-2">
-          <div class="col-md-6 wow-outer">
-            <!-- Post Modern-->
-            <article class="post-modern wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="post-modern-media" href="#"><img src="assets/img/puntoventa/Captura1.png" alt="" width="571" height="353"></a>
-              <h4 class="post-modern-title"><a class="post-modern-title" href="#">Productos</a></h4>
-              <p>A comfortable residential property located in a quiet and cozy area.</p>
-            </article>
+        <div class="row">
+          <div>
+            <hr />
           </div>
-          <div class="col-md-6 wow-outer">
-            <!-- Post Modern-->
-            <article class="post-modern wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="post-modern-media" href="#"><img src="assets/img/puntoventa/Captura2.png" alt="" width="571" height="353"></a>
-              <h4 class="post-modern-title"><a class="post-modern-title" href="#">1808 Bolingbroke Pl, Fort Worth, TX 76140</a></h4>
-              <ul class="post-modern-meta">
-                <li><a class="button-winona" href="#"><div class="content-original">$1300/mon</div><div class="content-dubbed">$1300/mon</div></a></li>
-                <li>40 Sq. Ft.</li>
-                <li>2 Bedrooms</li>
+        </div>
+      </div>
+      <br />
+      <div class="container">
+        <h2 class="post-modern-title"><a class="post-modern-title" href="#">Tablero</a></h2>
+        <div class="row  align-items-stretch justify-content-between features-item">
+          <div class="container row" data-aos="fade-up">
+            <div class="col-lg-6 d-flex justify-content-center flex-column" data-aos="fade-up">
+              <p><strong>Herramienta visual e interactiva que permite a los usuarios obtener una visión general del
+                  rendimiento de las ventas y el estado de la operación en tiempo real.</strong></p>
+              <ul>
+                <li><i class="bi bi-1-circle-fill"></i><span>Primera foto:Pestaña tablero, el botón 'Abrir caja
+                    registradora' permite iniciar la sesión de caja.</span></li>
+                <li><i class="bi bi-2-circle-fill"></i><span>Segunda foto:Ventana emergente tras clicar en 'Abrir caja',
+                    habrá que ingresar el monto correspondiente y tras ingresarlo, se podrá confirmar la apertura de la
+                    caja, y podrás realizar pedidos y pagos durante la sesión de Punto de venta.</span></li>
+                <li><i class="bi bi-3-circle-fill"></i><span>Tercera foto:Tras abrir la caja registradora aparece un
+                    mapa de mesa. El mapa de mesas muestra una representación visual de las mesas del restaurante, las
+                    cuales pueden tener pedidos o no.
+                    -Si la mesa sale un pedido nos saldrá con un color de relleno en la interfaz.
+                  </span></li>
+                <li><i class="bi bi-4-circle-fill"></i><span>Cuarta foto:Si clicamos en alguna de estas mesas podemos
+                    iniciar un pedido en esa mesa.</span>
+                </li>
+                <li><i class="bi bi-5-circle-fill"></i><span>Quinta foto:Algunos de los productos a los que podremos
+                    optar en el pedido pueden llevar complementos adicionales. Tras efectuar completamente el pedido, si
+                    clicamos en Pago procederemos al pago del mismo.</span>
+                </li>
+                <li><i class="bi bi-6-circle-fill"></i><span>Sexta foto:Aparecen los distintos métodos de pago, pulsamos
+                    el deseado y validamos. Puntos a tener en cuenta antes de validar:
+                    <br/>
+                    -En el caso que paguemos en efectivos, en caso de que el pago no sea exacto, introducimos la
+                    cantidad que vamos a recibir por parte del cliente y muestra el cambio que tendra que recibir.A continuación validamos.
+                    <br/>
+                    -En caso de pago por tarjeta, clicamos directamente en validar.
+                  </span>
+                </li>
+                <li><i class="bi bi-7-circle-fill"></i><span>Séptima foto:Aparecen los distintos métodos de
+                    pago,pulsamos
+                    el deseado y validamos.</span>
+                </li>
               </ul>
-              <p>Perfect for those who love both city life and the countryside.</p>
-            </article>
+            </div>
+            <div class="portfolio-details-slider swiper col-lg-6 swiper5" style="max-width: 600px;height:500px;">
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  var swiper = new Swiper('.swiper5', {
+                    loop: true,
+                    speed: 600,
+                    autoplay: {
+                      delay: 5000
+                    },
+                    slidesPerView: 'auto',
+                    navigation: {
+                      nextEl: '.swiper-button-next',
+                      prevEl: '.swiper-button-prev'
+                    },
+                    pagination: {
+                      el: '.swiper-pagination',
+                      type: 'bullets',
+                      clickable: true
+                    }
+                  });
+                });
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura3.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura4.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura5.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/puntoventa/Captura6.png" alt=""
+                    style="object-fit: contain; width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
-          <div class="col-md-6 wow-outer">
-            <!-- Post Modern-->
-            <article class="post-modern wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="post-modern-media" href="#"><img src="assets/img/puntoventa/Captura1.png" alt="" width="571" height="353"></a>
-              <h4 class="post-modern-title"><a class="post-modern-title" href="#">924 Bel Air Rd, Los Angeles, CA 90077</a></h4>
-              <ul class="post-modern-meta">
-                <li><a class="button-winona" href="#"><div class="content-original">1800/mon</div><div class="content-dubbed">1800/mon</div></a></li>
-                <li>50 Sq. Ft.</li>
-                <li>4 Bedrooms</li>
-              </ul>
-              <p>Located in 5 mins from downtown, this property is great for anyone.</p>
-            </article>
-          </div>
-          <div class="col-md-6 wow-outer">
-            <!-- Post Modern-->
-            <article class="post-modern wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="post-modern-media" href="#"><img src="images/grid-blog-4-571x353.jpg" alt="" width="571" height="353"></a>
-              <h4 class="post-modern-title"><a class="post-modern-title" href="#">13510 W Cheery Lynn Rd, Avondale, AZ 85392</a></h4>
-              <ul class="post-modern-meta">
-                <li><a class="button-winona" href="#"><div class="content-original">$2700/mon</div><div class="content-dubbed">$2700/mon</div></a></li>
-                <li>90 Sq. Ft.</li>
-                <li>2 Bedrooms</li>
-              </ul>
-              <p>A luxury mansion for people who enjoy the high-end amenities.</p>
-            </article>
-          </div>
-          <div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#"><div class="content-original">view More properties</div><div class="content-dubbed">view More properties</div></a></div>
         </div>
       </div>
     </section>
+    <!---->
     <!--/PRUEBA-->
 
     <!-- AJUSTES -->
